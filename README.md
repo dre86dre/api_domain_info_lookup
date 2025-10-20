@@ -56,3 +56,42 @@ cd api_domain_info_lookup
 python api_domain_info_lookup.py
 ```
 4. Enter a domain name when prompted (e.g. ```example.com```).
+
+---
+
+## Example Output
+
+```
+Enter a domain name (e.g. example.com): example.com
+
+✅ Domain Information:
+
+{
+    "WhoisRecord": {
+        "domainName": "example.com",
+        "createdDate": "1995-08-14T04:00:00Z",
+        "updatedDate": "2022-07-02T08:21:44Z",
+        "registrarName": "Internet Assigned Numbers Authority",
+        "status": "active",
+        "nameServers": {
+            "rawText": "a.iana-servers.net\nb.iana-servers.net",
+            "hostNames": ["a.iana-servers.net", "b.iana-servers.net"]
+        }
+    }
+}
+```
+
+---
+
+## Notes
+
+- Do not include http:// or https:// in the domain name.
+  - ✅ example.com
+  - ❌ https://example.com
+- If the API key is invalid or rate limits are reached, the script will display an error message.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/dre86dre/api_domain_info_lookup/blob/main/LICENSE).
