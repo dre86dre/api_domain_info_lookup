@@ -45,7 +45,7 @@ API_KEY = "your-real-api-key-here"
 
 1. Clone this repository:
 ```
-git clone https://github.com/dre86dre/api_domain_info_lookup.git
+git clone https://github.com/coder0name0dre/api_domain_info_lookup.git
 ```
 2. Navigate to the folder:
 ```
@@ -94,4 +94,4 @@ Enter a domain name (e.g. example.com): example.com
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/dre86dre/api_domain_info_lookup/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/coder0name0dre/api_domain_info_lookup/blob/main/LICENSE).
